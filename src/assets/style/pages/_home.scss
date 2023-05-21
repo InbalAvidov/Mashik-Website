@@ -1,0 +1,58 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;
+
+    // .img-container {
+    //     flex: 1;
+    // }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    img {
+        // width: 100vw;
+
+        .home1 {
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            animation-direction: alternate;
+        }
+
+        .home2 {
+            animation: fadeIn 5s;
+        }
+
+        .home3 {
+            animation: fadeIn 5s;
+        }
+
+        .home4 {
+            animation: fadeIn 5s;
+        }
+
+    }
+
+    p {
+        padding: 15px;
+        text-align: center;
+        color: $text;
+        font-size: 1.3em;
+        background-color: $bgc;
+        position: absolute;
+        bottom: 0;
+    }
+
+    span{
+        color: $brand-color;
+        font-weight: 600;
+    }
+}

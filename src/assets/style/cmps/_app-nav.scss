@@ -1,0 +1,32 @@
+nav {
+    background-color: $white;
+    padding: .3rem 0 0 2rem ;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    img{
+        height: 80px;
+        width: 180px;
+    }
+    a {
+        color: $text;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 1.4em;
+        transition: .3s;
+        
+        &.active {
+            font-weight: 700;
+            color: $brand-color;
+        }
+        
+        &:hover {
+            color: $brand-color;
+        }
+    }
+
+}

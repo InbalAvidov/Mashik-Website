@@ -1,0 +1,19 @@
+@import "setup/_variables";
+@import "setup/_typography";
+
+// // Basics
+@import "basics/_basic";
+@import "basics/_layout.scss";
+// @import "basics/_helpers.scss";
+
+// Cmps
+@import "cmps/_app-nav.scss";
+@import "cmps/_project-box.scss";
+@import "cmps/client-box.scss";
+
+// Pages
+@import "pages/_home.scss";
+@import "pages/_projects.scss";
+@import "pages/_client.scss";
+@import "pages/_contact.scss";
+

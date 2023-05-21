@@ -1,0 +1,14 @@
+.clients-container {
+    display: grid;
+    grid-template-columns: 180px 1fr 180px;
+    margin-top: 30px;
+}
+
+.clients {
+    grid-column: 2;
+    place-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+}
