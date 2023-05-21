@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Mashik-Website/static/css/main.542156b6.css",
+    "main.js": "/Mashik-Website/static/js/main.4c5faf38.js",
+    "static/media/home1.jpg": "/Mashik-Website/static/media/home1.1b0c9179d97e328ad06f.jpg",
+    "static/media/home3.jpg": "/Mashik-Website/static/media/home3.0ebe7d14c0e328b351bf.jpg",
+    "static/media/home2.jpg": "/Mashik-Website/static/media/home2.3e4b0c20dbbfe805fba9.jpg",
+    "static/media/box5.jpg": "/Mashik-Website/static/media/box5.80931c798c46b2fb000c.jpg",
+    "static/media/VarelaRound-Regular.ttf": "/Mashik-Website/static/media/VarelaRound-Regular.e5bd09202b6c1ec4ec3b.ttf",
+    "static/media/home4.jpg": "/Mashik-Website/static/media/home4.0bf64701a6c69c74ace7.jpg",
+    "static/media/box4.jpg": "/Mashik-Website/static/media/box4.b56f4070e11523ecc19c.jpg",
+    "static/media/box1.jpg": "/Mashik-Website/static/media/box1.b5dae82d9cb37c0a85af.jpg",
+    "static/media/box6.jpg": "/Mashik-Website/static/media/box6.daf0d60c429427e196ea.jpg",
+    "static/media/client2.jpg": "/Mashik-Website/static/media/client2.aa65ef7d1e68e66e1695.jpg",
+    "static/media/box2.jpg": "/Mashik-Website/static/media/box2.3c1e81f8aa54d9d58e1a.jpg",
+    "static/media/client8.jpg": "/Mashik-Website/static/media/client8.149303a681b9542a635a.jpg",
+    "static/media/client7.jpg": "/Mashik-Website/static/media/client7.f9651457e1f109b198b7.jpg",
+    "static/media/client4.jpg": "/Mashik-Website/static/media/client4.1221f325591346b700ba.jpg",
+    "static/media/client3.jpg": "/Mashik-Website/static/media/client3.afb0c63ef8afc77d6702.jpg",
+    "static/media/client6.jpg": "/Mashik-Website/static/media/client6.a560ce24461f8b2b89f4.jpg",
+    "static/media/client5.jpg": "/Mashik-Website/static/media/client5.4db3d0d766351a43dd4a.jpg",
+    "static/media/client9.jpg": "/Mashik-Website/static/media/client9.57835a80fc0601802838.jpg",
+    "static/media/client1.jpg": "/Mashik-Website/static/media/client1.87e21e0360835378ba83.jpg",
+    "static/media/box3.jpg": "/Mashik-Website/static/media/box3.dd8a03a0f8ed1fdc17dd.jpg",
+    "index.html": "/Mashik-Website/index.html",
+    "main.542156b6.css.map": "/Mashik-Website/static/css/main.542156b6.css.map",
+    "main.4c5faf38.js.map": "/Mashik-Website/static/js/main.4c5faf38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.542156b6.css",
+    "static/js/main.4c5faf38.js"
+  ]
+}
