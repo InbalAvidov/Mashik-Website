@@ -8,6 +8,7 @@ import { About } from './pages/about'
 import { Projects } from './pages/projects'
 import { Clients } from './pages/clients'
 import { Contact } from './pages/contact'
+import { Footer } from './cmps/footer'
 
 export function App() {
     return (
@@ -24,6 +25,7 @@ export function App() {
                             <Route element={<Contact />} path="/contact" />
                         </Routes>
                     </main>
+                    <Footer />
                 </section>
             </Router>
         // </Provider>

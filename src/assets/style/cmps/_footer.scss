@@ -1,0 +1,38 @@
+.footer {
+    // position: absolute;
+    // bottom: 0;
+    width: 100vw;
+    background-color: $dark-bgc;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+
+        font-size: 1.2rem;
+        margin: 8px;
+
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        color: $text;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 1.2em;
+        transition: .3s;
+
+        &.active {
+            font-weight: 700;
+            color: $brand-color;
+        }
+
+        &:hover {
+            color: $brand-color;
+        }
+    }
+}

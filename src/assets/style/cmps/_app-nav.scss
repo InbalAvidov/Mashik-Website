@@ -1,6 +1,7 @@
 nav {
     background-color: $white;
     padding: .3rem 0 0 2rem ;
+    height: 15vh;
 
     ul {
         display: flex;
@@ -8,22 +9,23 @@ nav {
         align-items: center;
     }
 
-    img{
+    img {
         height: 80px;
         width: 180px;
     }
+
     a {
         color: $text;
         cursor: pointer;
         font-weight: 500;
         font-size: 1.4em;
         transition: .3s;
-        
+
         &.active {
             font-weight: 700;
             color: $brand-color;
         }
-        
+
         &:hover {
             color: $brand-color;
         }

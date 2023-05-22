@@ -1,36 +1,37 @@
 .project-box {
     display: flex;
-    border: 1px solid black;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    width: 200px;
+    height: 30vh;
+    width: 30vh;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 10px;
+    background-color: lighten($bgc, 3%);
 
-    img{
+    img {
         opacity: 0;
         transition: .6s;
         position: absolute;
     }
 
-    &:hover{
+    &:hover {
 
-        img{
+        img {
             display: inline;
             width: 100%;
             height: 100%;
             opacity: 1;
-            
-            
+
+
         }
 
-        p{
+        p {
             display: none;
         }
     }
 
-    p{
-        font-size: 1.5rem;
+    p {
+        font-size: 1.7rem;
         text-align: center;
     }
 }

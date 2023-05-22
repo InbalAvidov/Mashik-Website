@@ -1,11 +1,13 @@
 .contact {
     display: flex;
     justify-content: center;
+    height: 75vh;
+    align-items: center;
 
     .contact-container {
         margin: 30px;
         text-align: center;
-        padding: 30px;
+        padding: 50px;
         width: fit-content;
         background-color: darken($bgc, 10%);
 
@@ -41,7 +43,8 @@
         }
 
         button {
-            margin-top: 20px;
+            margin-top: 40px;
+            padding: 10px 40px;
         }
     }
 }

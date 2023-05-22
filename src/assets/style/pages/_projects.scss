@@ -1,7 +1,8 @@
 .main-proj-page {
     display: grid;
     grid-template-columns: 200px 1fr 200px;
-    margin-top: 30px;
+    height: 75vh;
+    margin: auto;
 }
 
 .projects {
@@ -9,6 +10,5 @@
     place-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
 
 }

@@ -23,7 +23,7 @@ export function Home() {
     return (
         <main className="home-page full main-layout">
             <div className={currPhoto + 'img-container full'}>
-                <img src={currPhoto} className='full'></img>
+                <img src={currPhoto}></img>
             </div>
             <p className='full'>חברת<span> משיק הנדסה אזרחית בע"מ </span>הוקמה בשנת 2007 ועוסקת בניהול , פיקוח והבטחת איכות בפרויקטים בתחום התשתיות, הבניה והאנרגיה המתחדשת.
 

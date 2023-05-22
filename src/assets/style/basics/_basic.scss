@@ -27,6 +27,7 @@ body {
 .main-app {
     background-color: $bgc;
     padding-bottom: em(150px);
+    flex: 1;
 }
 
 ::-webkit-scrollbar {
@@ -82,11 +83,11 @@ a {
     color: $white;
 }
 
-button{
+button {
     font-family: hebrew;
     cursor: pointer;
     border: none;
     font-size: 1.3em;
-    padding: 10px 30px;
+    
     color: $text;
 }
