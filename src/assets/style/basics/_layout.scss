@@ -1,19 +1,23 @@
-.main-layout{
-    display: grid;
-    grid-template-rows: 15vh 75vh 10vh;
-    height: 100vh;
+.main-layout {
+    &.app {
+        display: grid;
+        grid-template-rows: 15vh 75vh 10vh;
+        height: 100vh;
 
-    .app-nav{
-        grid-row: 1;
-    }
-    .main-app{
-        grid-row: 2;
-    }
-    .footer{
-        grid-row: 3;
+        .app-nav {
+            grid-row: 1;
+        }
+
+        .main-app {
+            grid-row: 2;
+        }
+
+        .footer {
+            grid-row: 3;
+        }
     }
 
-    >*:not(.full){
+    >*:not(.full) {
         margin: 0 20px;
     }
 }

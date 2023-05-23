@@ -1,7 +1,11 @@
 .clients-container {
-    display: grid;
-    grid-template-columns: 180px 1fr 180px;
-    height: 75vh;
+    // display: grid;
+    // grid-template-columns: 150px 1fr 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .clients {
@@ -9,6 +13,6 @@
     place-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    gap: 20px;
 
 }
